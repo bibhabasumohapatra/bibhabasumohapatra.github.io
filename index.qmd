@@ -1,0 +1,32 @@
+---
+title: Bibhabasu Mohapatra
+image: images/bibhabasu.JPG
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: rounded
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/bibhabasuM1610
+    - icon: github
+      text: Github
+      href: https://github.com/bibhabasumohapatra
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/bibhabasu-mohapatra-3b8205193 
+    - icon: envelope
+      text: Email
+      href: mailto:bibhabasumohapatrabm@gmail.com
+    - icon: book
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=u5DLnWYAAAAJ&hl=en
+---
+
+Hello and welcome! My name is Bibhabasu Mohapatra, and I am a passionate AI enthusiast dedicated to advancing the field of artificial intelligence.
+
+Currently working as an AI Engineer at Aira Matrix, I'm deeply committed to pushing the boundaries of AI research.
+
+I'm particularly interested in topics related to self-supervised learning, multi-modal learning, and Representations. These areas fascinate me because of their potential to revolutionize AI and address complex challenges in various domains.
+
+Open for Research Opportunities in Academia.

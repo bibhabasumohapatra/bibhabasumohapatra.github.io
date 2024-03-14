@@ -1,0 +1,168 @@
+% Document class and font size
+\documentclass[a4paper,10pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+\usepackage{xcolor,lipsum}
+
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+\definecolor{bgRGB}{RGB}{254,252,252} %Example color for first page
+\pagecolor{bgRGB}
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\huge \textbf{Bibhabasu Mohapatra}}\\[4pt] % Name
+Mumbai, India | \href{mailto:bibhabasumohapatrabm@gmail.com}{bibhabasumohapatrabm@gmail.com} | \href{https://www.linkedin.com/in/bibhabasu-mohapatra-3b8205193/}{Linkedin} |\href{https://github.com/bibhabasumohapatra}{GitHub}  % Contact info
+\end{center}
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{International Institute of Information Technology}, Bhubaneswar, India \hfill August 2019 | July 2023\\ % University name and location
+Bachelor of Technology  \small{(Computer Science \& Engineering) \hfill Cummilative GPA: 8.05\\ 
+
+% Experience Section
+\section*{EXPERIENCE}
+\noindent
+\textbf{Aira Matrix \small{(Sun Pharma Group of Companies)}} \hfill Mumbai, India\\ % Company name and location
+\textit{AI Engineer} \hfill June 2023 - Present % Position and duration
+\begin{itemize}
+    \item Implemented a \textbf{Hierarchical Image Vision Transformer(HIPT)}, leveraging the power of \textbf{DINO (Self-Supervised Technique)}, to adeptly downsample comprehensive Whole Slide Images (WSIs) into a lower-dimensional space while retaining critical lower and higher resolution features. Applied these features to train Weakly Supervised classifiers, ensuring precise prediction of abnormalities in WSIs and yielding a commendable \textbf{~90\% AUC with a balanced accuracy of 88\%}. Expanded the model's capabilities to classify challenging biomarker parameters, such as PTEN and ERG, with limited labels, achieving a noteworthy performance of \textbf{79\% AUC}.
+    
+    \vspace{1.2mm}\item Engineered Explainability pipelines to visualize \textbf{Latent Representations, Intermediate features, Attentions}, and their implications on extensive GigaPixel Whole Slide Images (WSIs) of different formats, magnification and pixel widths and used state-of-the-art ViT-based Multi-Instance Learning Architectures to provide nuanced insights into complex unseen patterns.
+    
+    \vspace{1.2mm}\item Developed a robust \textbf{patient-level risk stratification} solution utilizing \textbf{multi-parametric MRI data}. Implemented advanced techniques, including \textbf{knowledge distillation and multi-instance supervised classification}, yielding an impressive test AUC of 84\%. Orchestrated efficient deployment by containerizing the model using Docker. Collaborated with Radiologists to ensure the successful implementation of the solution. Implemented Masked Autoencoder Self-Supervised and \textbf{Multiple-Instance Learning methods}, advancing cancer diagnosis methodologies advancing state-of-the-art in cancer diagnosis.
+    
+    \vspace{1.2mm}\item Developed algorithm for \textbf{Geometric matching using Image wrapping} and using convolution neural networks to estimate parameters for alignment. \textbf{3D reconstruction} for segmented abnormality using a 2d stack of WSIs. Volume correction using given volumetric parameters. Implemented \textbf{3D Reconstruction and Registration of Tumor Regions} from Prostate Tissue Whole Slide Images. Employed Blender and Open3D libraries for point cloud mesh visualization. 
+    
+     \vspace{1.2mm}\item Engaged in the development of \textbf{Generative Models} for the synthesis of synthetic or fake data, with a primary objective of mapping two different modality images. Successfully generated augmentation data to bolster model robustness. Proficiently applied 2D and 3D Deep Learning models for precise segmentation of abnormalities in multi-dimensionally stacked images, particularly those with higher bit depth.
+     \vspace{1.2mm}\item Contributed to the Development and validation of Aira Prostate, a sophisticated, and Created large Annotated Data from a variety of Scanners and Organizations Across the world. This tool accurately assesses Gleason scores and \textbf{primary and secondary Gleason patterns}.
+     \vspace{1.2mm}\item Significantly improved Image Post Processing Techniques for Gleason Grading in Prostate Cancer cases, which were successfully deployed in prominent hospitals across the United States and the Netherlands. These enhancements contributed to more precise prostate cancer diagnoses
+    % Job responsibilities and achievements
+
+\end{itemize}
+
+% Additional Experience or Volunteer Work
+\noindent
+\textbf{Aira Matrix \small{(Sun Pharma Group of Companies)}} \hfill Mumbai, India\\ % Project or organization name and location
+\textit{AI Intern} \hfill Feb 2023 – June 2023 % Position and duration
+\begin{itemize}
+   % Responsibilities and achievements
+    \vspace{1.5mm}\item Developed \textbf{Tumor Lesion Segmentation models} for Prostate MRI data as part of public competitions. Created inference pipelines for diverse modalities and data formats
+    \vspace{1.5mm}\item Acquired knowledge and expertise in Prostate Histopathology, including Gleason Grading and ISUP guidelines for Prostate Cancer, through sessions led by a Professional Pathologist
+    \vspace{1.5mm}\item Underwent a rigorous 3-week evaluation and training program in Machine Learning, Deep Learning, and Statistics for clinical and preclinical data, demonstrating skills in tasks such as Segmentation and Classification
+\end{itemize}
+
+% Club or Organization Experience
+\noindent
+\textbf{Polynomial.ai} \hfill Bangalore, India\\ % Club or organization name and location
+\textit{Machine Learning Intern} \hfill May 2022 – July 2022 % Position and duration
+\begin{itemize}
+    \item Contributed to the migration of Polynomial's in-house API, the Product Interaction Studio, from Dialogflow to Rasa. Restructured the Rasa codebase to align with the pre-existing structure. 
+    \vspace{1.2mm}\item Achieved a 3-4\% optimization in performance for entity and regex extraction in the Interaction Studio
+\end{itemize}
+
+% Projects Section
+\section*{PROJECTS}
+\noindent
+\textbf{HuBMAP + HPA - Hacking the Human Body \\ Segment multi-organ functional tissue units} \hfill June 2022 - Sep 2022 \\
+\textit{Project Link:} \url{https://github.com/bibhabasumohapatra/HuBMAP-HPA-Hacking-the-Human-Body}  % Project link and duration
+\begin{itemize}
+    \item Participated in a competition by \textbf{HuBMAP and HPA to identify functional tissue units (FTUs)} in biopsy slides from various organs 
+    \vspace{1.2mm}\item Employed Segformer, a state-of-the-art transformer architecture, for semi-supervised training. \textbf{Large images (3000x3000) were split into smaller (512x512)} patches, and a sliding window inference method was used for mask prediction
+\end{itemize}
+  
+% Additional Project
+\noindent
+\textbf{U.S. Patent Phrase-to-Phrase Matching \\ Identify Similar Phrases in U.S. Patents} \hfill March 2022 - June 2022\\ % Project name and location
+\textit{Project Link:} \url{https://www.kaggle.com/code/bibhabasumohapatra/train-us-patent-part-1-simple-pytorch} 
+\begin{itemize}
+    \item Competed in a \textbf{Kaggle challenge }to train models on a novel semantic similarity dataset, focusing on extracting relevant information by matching key phrases in patent documents
+    \vspace{1.2mm}\item  Employed \textbf{DeBERTaV3}, a new pre-trained language model, and used the MSE loss for predicting Pearson correlation between target text and anchor text data
+    \vspace{1.2mm}\item Successfully ranked in the \textbf{top 20\% of participants}, achieving a ranking of 366 out of 1889
+
+\end{itemize}
+
+% Additional Project
+\noindent
+\textbf{Transformer Playlist: A from scratch Implementation \\ A from scratch torch implementation } \hfill March 2024 \\ % Project name and location
+\textit{Project Link:} \url{https://github.com/bibhabasumohapatra/Vision_Transformer_from_scratch} 
+\begin{itemize}
+    \item Implemented and created an \textbf{educational YouTube video} detailing the construction of a \textbf{Vision Transformer from scratch using PyTorch}, trained on the CIFAR dataset.
+    \vspace{1.2mm}\item Provided in-depth explanations of key concepts such as \textbf{CLS token and Self-Attention}, enhancing understanding among viewers.
+    \vspace{1.2mm}\item Demonstrated advanced techniques, including the use of \textbf{PyTorch forward hooks to visualize Attention in PyTorch image models(timm) by reshaping the CLS token from the Attention matrix}.
+
+    
+
+\end{itemize}
+% Publication Section
+\section*{PUBLICATIONS}
+\noindent
+\textbf{Fused Deep Learning Paradigm for Predicting \\ o6-Methylguanine-DNA Methyltransferase Genotype} \hfill July 2023 - Jan 2023\\ % Project name and location
+\textit{Project Link:} \url{https://pubmed.ncbi.nlm.nih.gov/36621191/} 
+\begin{itemize}
+    \item Conducted radiomics feature extraction to analyze different MRI types (FLAIR, T1w, T2w, and T1CE)
+    \vspace{1.2mm}\item  Achieved a high AUC ROC score of 0.61, among the best in the field, while tracking data leakages for various configurations using Nvidia MONAI and ResNet 3D with pre-trained weights from Tencent-MedicalNet
+\end{itemize}  
+
+% % Skills Section
+% \section*{SKILLS}
+% \begin{itemize}
+%     \item \textbf{Machine Learning:} Python \textbar \hspace{0.01 cm} 
+%      Pytorch\textbar \hspace{0.01 cm} 
+%      Pandas \textbar \hspace{0.01 cm}
+%      Numpy \textbar \hspace{0.01 cm}
+%      Matplotlib \textbar \hspace{0.01 cm}
+%      Openslide \textbar \hspace{0.01 cm}
+     
+%     \item \textbf{Software:} SimpleITK \textbar \hspace{0.01 cm}
+%     QuPath \textbar \hspace{0.01 cm}
+%     WandB \textbar \hspace{0.01 cm}
+%     Tensorboard \textbar \hspace{0.01 cm}
+%     GitHub \textbar \hspace{0.01 cm}
+%     Huggingface \textbar \hspace{0.01 cm}
+%     Spacy 
+% \end{itemize}
+
+% Skills Section
+\section*{ACHEIVEMENTS}
+\begin{itemize}
+    \item Bronze medalist, ranking 80th in the top 7\% (80/1245) in the \href{https://www.kaggle.com/competitions/hubmap-organ-segmentation/leaderboard}{\textbf{HuBMAP + HPA - Hacking the Human Body Competition}} (Image Segmentation) on Kaggle.
+     
+    \vspace{1.2mm}\item Ranked in the top 1\% on the \textbf{Kaggle Notebook Expert Leaderboard (1266/222,350)}and the \textbf{Kaggle Discussion Expert Leaderboard (1031/288,246)}
+
+    \vspace{1.2mm}\item Achieved a \textbf{top 20\% position (366/1889)} in the US Patent Phrase Matching Competition (NLP Classification) on Kaggle
+
+    \vspace{1.2mm}\item Recognized as a \textbf{Top contributor in Hacktoberfest Open Source Contribution for PyTorch Lightning's} Lightning app version of EasyOCR. Also, won multiple merchandise awards for contributions to this ready-to-use OCR application supporting 80+ languages.
+    
+    \vspace{1.2mm}\item Certified and Completed in the \textbf{`` NPTEL course Computer Vision and Image Processing – Fundamentals and Applications '' }
+    
+\end{itemize}
+
+\section*{SKILLS}
+\textbf{Software:} \indent\indent Python, PyTorch (extensive)\\
+\indent\indent\indent\indent\indent \hspace{1mm}OpenSlide(extensive),SimpleITK(extensive)\\
+\indent\indent\indent\indent\indent 
+\hspace{1mm}Open3D, Blender, Scipy, QuPath, WandB\\
+
+\noindent\textbf{Specialization:} \hspace{2mm}Computer Vision(extensive),NLP,\\
+\indent\indent\indent\indent\indent 
+\hspace{1mm}Self-Supervised training, Representation Learning \\
+\vspace{1.25mm}
+
+% End document
+\end{document}

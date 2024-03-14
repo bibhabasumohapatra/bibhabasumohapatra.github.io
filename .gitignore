@@ -1,0 +1,36 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/.quarto/
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+

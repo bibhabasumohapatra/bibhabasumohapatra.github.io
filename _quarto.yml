@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Bibhabasu Mohapatra"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: https://www.youtube.com/channel/UCCQE92hagEPeR_w3XMK4mkg
+        text: YouTube
+      - href: files/cv.pdf
+        text: CV
+      - href: work.qmd
+        text: Current Work
+
+format:
+  html:
+    theme:
+      light: [litera, styles.scss]
+      dark: [darkly, styles-dark.scss]
+    highlight-style: a11y-dark
+    mainfont: "Roboto"
+    code-copy: true
+    code-overflow: wrap
+
+
+execute:
+  freeze: auto
+
