@@ -25,7 +25,7 @@ about:
 
 Hello and welcome! My name is Bibhabasu Mohapatra, and I am a passionate AI enthusiast dedicated to advancing the field of artificial intelligence.
 
-Currently working as an AI Engineer at Aira Matrix, I'm deeply committed to pushing the boundaries of AI research.
+Currently working as a Data Scientist at Microsoft, previously working as an Engineer(Computer Vision) at Aira Matrix. I'm deeply committed to pushing the boundaries of AI research.
 
 I'm particularly interested in topics related to self-supervised learning, multi-modal learning, and Representations. These areas fascinate me because of their potential to revolutionize AI and address complex challenges in various domains.
 
