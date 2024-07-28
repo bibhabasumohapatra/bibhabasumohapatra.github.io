@@ -23,7 +23,7 @@ about:
       href: https://scholar.google.com/citations?user=u5DLnWYAAAAJ&hl=en
 ---
 
-Hello and welcome! My name is Bibhabasu Mohapatra, and I am a passionate AI enthusiast dedicated to advancing the field of artificial intelligence.
+Hello and welcome! My name is Bibhabasu Mohapatra, and I am a passionate Deep Learning enthusiast dedicated to advancing the field of artificial intelligence.
 
 Currently working as a Data Scientist at Microsoft, previously working as an Engineer(Computer Vision) at Aira Matrix. I'm deeply committed to pushing the boundaries of AI research.
 
