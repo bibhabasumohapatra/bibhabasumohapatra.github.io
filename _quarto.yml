@@ -8,7 +8,7 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: https://www.youtube.com/channel/UCCQE92hagEPeR_w3XMK4mkg
+      - href: https://bibhabasumohapatra.github.io/youtube
         text: YouTube
       - href: files/cv.pdf
         text: CV
