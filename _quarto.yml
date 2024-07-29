@@ -12,10 +12,10 @@ website:
         text: YouTube
       - href: files/cv.pdf
         text: CV
-      - href: https://medium.com/@bibhabasumohapatrabm
+      - href: https://bibhabasumohapatra.github.io/blog
         text: Blogs
-      - href: work.qmd
-        text: Current Work
+      - href: publication.qmd
+        text: publication
 
 format:
   html:
