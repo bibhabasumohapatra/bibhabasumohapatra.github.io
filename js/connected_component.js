@@ -8,23 +8,13 @@ function preload() {
 
 function setup() {
   // Get the container width
-  let container = select('#p5-canvas');
-  let containerWidth = container.width;
-  
-  // Set a maximum width (adjust this value to match your desired size)
-  let maxWidth = 300; // or whatever width you want
-  let targetWidth = Math.min(containerWidth, maxWidth);
-  
-  // Calculate height maintaining aspect ratio
-  let targetHeight = (targetWidth / source.width) * source.height;
-  
-  // Create canvas with the target dimensions
-  canvas = createCanvas(targetWidth, targetHeight);
+
+  let canvas = createCanvas(source.width, source.height);
   canvas.parent('p5-canvas');
   pixelDensity(1);
   
   // Resize the source image to match canvas
-  source.resize(targetWidth, targetHeight);
+  // source.resize(targetWidth, targetHeight);
   source.loadPixels();
   
   visited = Array(source.width * source.height).fill(false);

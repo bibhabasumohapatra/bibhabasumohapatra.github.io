@@ -11,22 +11,12 @@ body {
 /*---------------------------------------
     Typorgraphy              
 -----------------------------------------*/
-.image-container {
-  position: relative;
-  width: 100%;
-  max-width: 600px; /* adjust based on your needs */
-  margin: 0 auto;
-}
+
 
 #p5-canvas {
   width: 100%;
   height: auto;
 }
-
-canvas {
-  width: 100% !important;
-  height: auto !important;
-} 
 
 h1,h2,h3,h4,h5,h6 {
   font-style: normal;
