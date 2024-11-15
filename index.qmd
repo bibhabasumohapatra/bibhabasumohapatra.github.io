@@ -1,0 +1,38 @@
+---
+title: "Bibhabasu's Blog"
+listing:
+  sort: "date desc"
+  contents: "posts"
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  feed: true
+  type: grid
+  grid-columns: 3
+  image-height: 250px
+page-layout: full
+title-block-banner: true
+---
+
+## Welcome! 👋
+
+I'm Bibhabasu Mohapatra, a Data Scientist at Microsoft with a passion for machine learning and computer vision. While I initially considered building this site with Next.js or React, I fell in love with Quarto's elegant integration with Jupyter Notebooks for technical blogging.
+
+### About Me
+
+Currently working as a Data Scientist at Microsoft, I previously served as a Computer Vision Engineer at Aira Matrix. My research interests include:
+
+- Self-supervised Learning
+- Multi-modal Learning
+- Representation Learning
+
+I'm actively seeking research opportunities in academia to further explore these areas.
+
+### Connect With Me
+
+- Personal Website: [bibhabasu-mohapatra.space](https://bibhabasu-mohapatra.space)
+- [Add your social links here - GitHub, LinkedIn, Twitter etc.]
+
+---
+
+### Latest Blog Posts 
