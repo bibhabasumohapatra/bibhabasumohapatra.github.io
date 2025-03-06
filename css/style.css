@@ -51,11 +51,11 @@ h4 {
 }
 
 p {
-    color: #444;
-    font-size: 15px;
+    color: #222;
+    font-size: 18px;
     font-weight: 300;
     line-height: 26px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.25px;
 }
 
 strong {
@@ -207,7 +207,7 @@ a:hover, a:active, a:focus {
 
 .navbar-default {
     background: #ffffff;
-    padding: 18px 0;
+    padding: 24px 0;
     border: none;
     margin-top: 62px;
 }
