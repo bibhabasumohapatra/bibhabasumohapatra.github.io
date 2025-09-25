@@ -1,1 +1,0 @@
-@credits: https://www.ygzhang.com/index.html

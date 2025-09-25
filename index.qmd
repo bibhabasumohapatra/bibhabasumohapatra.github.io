@@ -1,0 +1,130 @@
+---
+pagetitle: "Bibhabasu Mohapatra"
+page-layout: full
+title-block-banner: false
+
+twitter-card:
+    title: Bibhabasu Mohapatra
+    description: >-
+     MSc Student at University of Tübingen
+
+
+format: 
+  html: 
+    page-layout: full
+
+header-includes: >
+  <link rel="stylesheet" href="_assets/index.css">
+resources:
+  - _assets/index.css
+---
+<!-- Hi! I am Bibhabasu, welcome to my page.
+
+I am a Masters Student at Eberhard Karls University of Tübingen. My academic interests center around Probabilistic Machine Learning and its integration into modern AI systems to enhance explainability, safety, and truthfulness.
+
+Previously, I worked as a Data Scientist at Microsoft, focusing on cloud supply chain planning for Azure Compute and Storage devices. Before that, I was an AI Engineer at Aira Matrix, specializing in Computer Vision for Medical Imaging, particularly prostate cancer diagnostics.
+
+I have hands-on experience across a wide range of Deep Learning and Computer Vision domains, including Image Segmentation, 3D Computer Vision, Representation Learning, and NLP.
+
+Get in touch or learn more about me through the links above! -->
+```{=html}
+<h1 class="site-title text-primary mt-0 fw-lighter text-center text-sm-start">
+      Bibhabasu
+      <span class="nowrap">Mohapatra</span>
+    </h1>
+<div class="site-hero mb-5">
+  <div class="site-intro">
+
+    <div class="social-icon-links my-3" aria-hidden="true">
+    <a
+      class="link-primary"
+      href="mailto:bibhabasu.m@gmail.com"
+      title="email"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fas fa-envelope fa-lg fa-fw"></i>
+    </a>
+
+    <a
+      class="link-primary"
+      href="https://github.com/bibhabasumohapatra"
+      title="github"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+
+    <a
+      class="link-primary"
+      href="https://www.linkedin.com/in/bibhabasu-mohapatra-3b8205193"
+      title="linkedin"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+
+    <a
+      class="link-primary"
+      href="https://twitter.com/bibhabasuM1610"
+      title="twitter"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+
+    <a
+      class="link-primary"
+      href="https://www.youtube.com/@bibhabasu"
+      title="youtube"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+
+    <a
+      class="link-primary"
+      href="https://www.instagram.com/bibhabasufilms/"
+      title="instagram"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+
+    <a
+      class="link-primary"
+      href="https://www.kaggle.com/bibhabasumohapatra"
+      title="kaggle"
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fab fa-kaggle fa-lg fa-fw"></i>
+    </a>
+
+    </div>
+
+    <p class="site-into fs-5">
+    I'm an <strong>MSc Machine Learning Student</strong> at <strong>Eberhard Karls University of Tübingen</strong>. I am interested in research collaboration in <strong>Deep Learning</strong> and <strong>Computer Vision</strong> - Image Segmentation, Representation Learning, and NLP.
+    </p>
+    <a class="mt4 action text" href="images/CV_Bibhabasu_Tuebingen.pdf" target="_blank">Curriculum Vitae →</a>
+  </div>
+
+  <div class="site-logo order-first order-sm-last text-primary">
+    <img src="images/OSBF4303.JPG" alt="Profile Picture of Bibhabasu Mohapatra" class="profile-pic">
+  </div>
+</div>
+```
+
+## [About me](/)
+
+
+Prior to my Masters, I had brief stint as a **Data & Applied Scientist** at **Microsoft** where I developed forecasting models and support capacity planning. I worked on problems like Holiday Seasonality, integrating Deep Learning times series model.
+
+My major research experience comes from my time at **Aira Matrix (Sun Pharmaceuticals)**, where I collaborated with University College London (UCL) on detecting and classifying high-grade tumors using 3D prostate MRIs. This project introduced me to 3D image registration, rendering, and segmentation. I began my full-time role as an **AI Engineer** at Aira Matrix in July 2023, after completing my college studies. I contributed to the development of Aira Prostate, a solution for Gleason grading of prostate histopathology, by enhancing the inference speed of the segmentation model and incorporating a Multiple Instance Learning (MIL) classification.
+
+I'm particularly interested in topics related to self-supervised learning, multi-modal learning, and Representations. These areas fascinate me because of their potential to revolutionize AI and address complex challenges in various domains. Open for Research Opportunities in Academia.

@@ -1,0 +1,8 @@
+---
+title: "Publication"
+format: 
+  html: 
+    page-layout: full
+---
+
+About this site

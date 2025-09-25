@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Publication",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n      Bibhabasu\n      Mohapatra\n    ",
+    "section": "",
+    "text": "Bibhabasu\n      Mohapatra"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "\n      Bibhabasu\n      Mohapatra\n    ",
+    "section": "About me",
+    "text": "About me\nPrior to my Masters, I had brief stint as a Data & Applied Scientist at Microsoft where I developed forecasting models and support capacity planning. I worked on problems like Holiday Seasonality, integrating Deep Learning times series model.\nMy major research experience comes from my time at Aira Matrix (Sun Pharmaceuticals), where I collaborated with University College London (UCL) on detecting and classifying high-grade tumors using 3D prostate MRIs. This project introduced me to 3D image registration, rendering, and segmentation. I began my full-time role as an AI Engineer at Aira Matrix in July 2023, after completing my college studies. I contributed to the development of Aira Prostate, a solution for Gleason grading of prostate histopathology, by enhancing the inference speed of the segmentation model and incorporating a Multiple Instance Learning (MIL) classification.\nI’m particularly interested in topics related to self-supervised learning, multi-modal learning, and Representations. These areas fascinate me because of their potential to revolutionize AI and address complex challenges in various domains. Open for Research Opportunities in Academia."
+  }
+]
